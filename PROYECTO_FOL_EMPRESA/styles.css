@@ -1,0 +1,159 @@
+
+body {
+	background-image: url('img/logiwave.jpg');
+	background-size: cover; /*img para el fondo */
+  }
+  
+
+
+/* Estilos generales */
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif, ;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Encabezado */
+  
+  header {
+	background-color: #005ff9;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	padding: 0 20px;
+  }
+  
+  nav ul {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  nav li {
+	margin-left: 20px;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+	color: #F6A50F;
+  }
+  
+  .hero h1 {
+	font-size: 64px;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .hero p {
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	padding: 0;
+  }
+  
+  /* Valores */
+  
+  .values {
+	background-color: #F6F6F6;
+	padding: 60px 20px;
+  }
+  
+  .values-container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 960px;
+	margin: 0 auto;
+  }
+  
+  .value {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	width: 30%;
+	text-align: center;
+  }
+  
+  .value h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  .value p {
+	margin: 20px 0 0 0;
+	padding: 0;
+	font-size: 18px;
+  }
+  
+  /* Estructura organizativa */
+  .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.container > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+
+.container > div > img {
+	width: 150px;
+	height: auto;
+	margin-top: 10px;
+}
+  
+  /* Marketing */
+  
+  .marketing {
+	background-color: #fff;
+	padding: 60px 20px;
+  }
+  
+  .marketing p {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	text-align: center;
+  }
+  
+  /* Publicidad */
+  
+  .publicidad {
+	background-color: #F6F6F6;
+	padding: 60px 20px;
+  }
+  
+  .publicidad p {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	text-align: center;
+  }
+  
+  /* Pie de página */
+  
+  footer {
+	background-color: #0b5cdd;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+  }
+  
